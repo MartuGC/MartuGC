@@ -1,0 +1,38 @@
+html{
+    font: size 100px;
+  }
+
+  div {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: green;
+    padding: 10px;
+    font-size: 24px;
+    width: 24vw;
+    height: 24vw;
+    color: white;
+
+}
+.distinto{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: red;
+    padding: 10px;
+    font-size: 24px;
+    width: 24vw;
+    height: 24vw;
+    color: white;
+
+}
+div:hover{
+    background-color: blueviolet;
+    color: black;
+}
+.distinto:hover{
+    color: red;
+    background-color: grey;
+}
+
+
+
+
